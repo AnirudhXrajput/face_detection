@@ -37,7 +37,7 @@ def detect_faces():
                 if abs(angle) > 15:
                     print("Head rotated")
         
-        # Print messages based on face count AFTER the loop
+
         if face_count == 0:
             print("No face detected!")
         elif face_count > 1:
